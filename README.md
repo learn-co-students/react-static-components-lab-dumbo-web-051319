@@ -6,7 +6,7 @@
 - Have some fun with the rendered components in the browser
 
 ## Instructions
-
+ 
 In this lab, we will be rendering a few children components in our top-most
 component: `App`. All of our work will be done in `src/App.js`, the rest of the
 components/source files shouldn't need any alterations.
