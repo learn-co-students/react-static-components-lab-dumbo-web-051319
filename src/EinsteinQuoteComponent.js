@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class EinsteinQuoteComponent extends Component {
+class EinsteinQuoteComponent extends React.Component {
 	render() {
 		return (
 			<div className="bar" id="einstein">
@@ -13,6 +13,7 @@ export class EinsteinQuoteComponent extends Component {
 				<br />
 				&#9;-Einstein
 			</div>
-		);
+		)
 	}
 }
+export default EinsteinQuoteComponent;
