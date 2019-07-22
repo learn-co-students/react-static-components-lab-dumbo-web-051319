@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class CatComponent extends Component {
+class CatComponent extends React.Component {
   render() {
     return (
       <div className="bar" id="cat">
         <img src="/cat.gif" />
       </div>
-    );
+    )
   }
 }
+export default CatComponent;
